@@ -12,13 +12,16 @@ Then create a file named .eslintrc with following contents in the root folder of
 ```
 
 ## add prettier:
-`yarn add --save-dev lint-staged prettier`
+`yarn add --save-dev husky lint-staged prettier`
 
 then add this to your package.json:
 
+"scripts": {
+  "precommit": "lint-staged",
+},
 "lint-staged": {
-  "src/**/*.js": [
+  "src/**/*.js, test/**/*.js": [
     "prettier --write",
     "git add"
-  ],
+  ]
 },
