@@ -20,6 +20,6 @@ module.exports = {
       { ignoreRestSiblings: true }
     ],
     'no-var': 1,
-    'object-shorthand': 1
+    'object-shorthand': [1, 'properties']
   }
 }
