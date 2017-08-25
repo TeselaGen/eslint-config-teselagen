@@ -6,7 +6,7 @@ module.exports = {
   rules: {
     'no-else-return': 1,
     'react/jsx-boolean-value': [1, 'never'],
-    'no-console': [1, { allow: ['info', 'warn', 'error'] }],
+    // 'no-console': [1, { allow: ['info', 'warn', 'error'] }],
     'no-debugger': 2,
     'no-empty': [2, { "allowEmptyCatch": true }],
     'no-extra-boolean-cast': 2,
