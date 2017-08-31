@@ -4,7 +4,6 @@ module.exports = {
   },
   "extends": ["react-app"],
   rules: {
-    'no-else-return': 1,
     'react/jsx-boolean-value': [1, 'never'],
     // 'no-console': [1, { allow: ['info', 'warn', 'error'] }],
     'no-debugger': 2,
