@@ -5,7 +5,6 @@ module.exports = {
   "extends": ["react-app"],
   rules: {
     'react/jsx-boolean-value': [1, 'never'],
-    // 'no-console': [1, { allow: ['info', 'warn', 'error'] }],
     'no-debugger': 2,
     'no-empty': [2, { "allowEmptyCatch": true }],
     'no-extra-boolean-cast': 2,
@@ -19,6 +18,9 @@ module.exports = {
       { ignoreRestSiblings: true }
     ],
     'no-var': 1,
-    'object-shorthand': [1, 'properties']
+    'object-shorthand': [1, 'properties'],
+    'import/no-unresolved': 2,
+    'import/named': 2,
+    'import/default': 2
   }
 }
