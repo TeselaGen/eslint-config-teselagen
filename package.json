@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-teselagen",
-  "version": "2.0.4",
+  "version": "2.0.3",
   "description": "teselagen linter rules",
   "repository": "https://github.com/TeselaGen/eslint-config-teselagen.git",
   "author": "teselagen team@teselagen",
   "license": "MIT",
   "scripts": {
-    "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers --yarn"
+    "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers"
   },
   "files": [
     "index.js",
