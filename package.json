@@ -8,6 +8,11 @@
   "scripts": {
     "postinstall": "install-peerdeps eslint-config-okonet --dev --only-peers"
   },
+  "files": [
+    "index.js",
+    "react.js",
+    "node.js"
+  ],
   "dependencies": {
     "install-peerdeps": "^1.2.0"
   },

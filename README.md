@@ -2,14 +2,12 @@
 ## Installation
 
 1. `npm install --save-dev eslint eslint-config-okonet`
-2. Add following block to `package.json`
+2. Add following block to `.eslintrc`
 
 ```json
-"eslintConfig": {
     "extends": [
       "teselagen/react" or "teselagen/node" 
     ]
-  }
 ```
 
 This will add generic config.
