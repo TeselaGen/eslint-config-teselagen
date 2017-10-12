@@ -8,24 +8,8 @@
   "scripts": {
     "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers --yarn"
   },
-  "files": [
-    "react.js",
-    "node.js"
-  ],
   "dependencies": {
     "install-peerdeps": "^1.2.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint": "^4.8.0",
-    "eslint-config-react-app": "^2.0.1",
-    "eslint-config-teselagen": "^1.0.10",
-    "eslint-plugin-flowtype": "2.33.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "5.0.1",
-    "eslint-plugin-react": "7.0.1",
-    "lint-staged": "^4.0.4",
-    "prettier": "^1.6.1"
   },
   "peerDependencies": {
     "babel-eslint": "7.2.3",
