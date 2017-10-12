@@ -1,7 +1,8 @@
 
 ## Installation
 
-1. `npm install --save-dev eslint eslint-config-okonet`
+1. `yarn add -D eslint eslint-config-teselagen`
+2. `yarn install-peerdeps eslint-config-teselagen --dev --only-peers`
 2. Add following block to `.eslintrc`
 
 ```json
