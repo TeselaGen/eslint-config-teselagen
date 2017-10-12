@@ -12,16 +12,18 @@ For Node.js projects, extend from `teselagen/node`
 
 Then add this to your package.json:
 ```
-"extends": [
-      "teselagen/react" or "teselagen/node" 
-    ],
+"eslintConfig": {
+  "extends": [
+    "teselagen/react" or "teselagen/node" 
+  ]
+},
 "scripts": {
-  "precommit": "lint-staged",
+  "precommit": "lint-staged"
 },
 "lint-staged": {
   "src/**/*.js": [
     "prettier --write",
     "git add"
   ]
-}
+},
 ```
