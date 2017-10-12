@@ -6,7 +6,7 @@
   "author": "teselagen team@teselagen",
   "license": "MIT",
   "scripts": {
-    "postinstall": "install-peerdeps eslint-config-teselagen --dev --only-peers"
+    "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers"
   },
   "files": [
     "index.js",
