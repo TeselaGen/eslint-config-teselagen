@@ -15,7 +15,6 @@
     "babel-eslint": "7.2.3",
     "eslint": "^4.8.0",
     "eslint-config-react-app": "^2.0.1",
-    "eslint-config-teselagen": "^1.0.10",
     "eslint-plugin-flowtype": "2.33.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "5.0.1",
