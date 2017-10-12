@@ -1,15 +1,23 @@
-# eslint-config-teselagen
-```
-yarn add --dev eslint-config-teselagen eslint-config-react-app babel-eslint@7.2.3 eslint eslint-plugin-flowtype@2.33.0 eslint-plugin-import@2.2.0 eslint-plugin-jsx-a11y@5.0.1 eslint-plugin-react@7.0.1
+
+## Installation
+
+1. `npm install --save-dev eslint eslint-config-okonet`
+2. Add following block to `package.json`
+
+```json
+"eslintConfig": {
+    "extends": [
+      "teselagen/react" or "teselagen/node" 
+    ]
+  }
 ```
 
-Then create a file named .eslintrc with following contents in the root folder of your project:
+This will add generic config.
 
-```
-{
-  "extends": "teselagen"
-}
-```
+For React.js projects, extend from `teselagen/node`
+
+For Node.js projects, extend from `teselagen/node`
+
 
 ## add prettier:
 `yarn add --dev husky lint-staged prettier`

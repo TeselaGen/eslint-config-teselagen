@@ -2,8 +2,26 @@
   "name": "eslint-config-teselagen",
   "version": "1.0.9",
   "description": "teselagen linter rules",
-  "main": "index.js",
   "repository": "https://github.com/TeselaGen/eslint-config-teselagen.git",
   "author": "teselagen team@teselagen",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "install-peerdeps eslint-config-okonet --dev --only-peers"
+  },
+  "dependencies": {
+    "install-peerdeps": "^1.2.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "^4.8.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-config-teselagen": "^1.0.10",
+    "eslint-plugin-flowtype": "2.33.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.1",
+    "eslint-plugin-react": "7.0.1",
+    "lint-staged": "^4.0.4",
+    "npm-check": "^5.0.1",
+    "prettier": "^1.6.1"
+  }
 }

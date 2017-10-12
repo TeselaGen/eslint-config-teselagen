@@ -1,12 +1,7 @@
 module.exports = {   
-  "globals": {
-    "toastr": true
-  },
-  "extends": ["react-app"],
   rules: {
-    'react/jsx-boolean-value': [1, 'never'],
     'no-debugger': 2,
-    'no-empty': [2, { "allowEmptyCatch": true }],
+    'no-empty': [2],
     'no-extra-boolean-cast': 2,
     'no-extra-semi': 1,
     'no-inner-declarations': [2, 'functions'],
