@@ -1,14 +1,8 @@
 
 ## Installation
 
-1. `yarn add -D eslint eslint-config-teselagen`
-2. `yarn install-peerdeps eslint-config-teselagen --dev --only-peers`
+1. `yarn add -D eslint-config-teselagen`
 2. Add following block to `.eslintrc`
-
-
-
-For React.js projects, extend from `teselagen/react`
-For Node.js projects, extend from `teselagen/node`
 
 Then add this to your package.json:
 ```
@@ -27,3 +21,7 @@ Then add this to your package.json:
   ]
 },
 ```
+
+
+For React.js projects, extend from `teselagen/react`
+For Node.js projects, extend from `teselagen/node`

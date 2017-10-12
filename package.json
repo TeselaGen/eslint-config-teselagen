@@ -8,7 +8,6 @@
   "scripts": {
     "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers --yarn"
   },
-  "main": "react.js",
   "files": [
     "react.js",
     "node.js"
