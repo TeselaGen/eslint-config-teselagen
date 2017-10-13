@@ -1,16 +1,20 @@
 
 ## Installation
 
-1. `yarn add -D eslint-config-teselagen`
+1. `yarn add -D install-peerdeps eslint-config-teselagen`
+2. `install-peerdeps eslint-config-teselagen --dev --only-peers`
+
+
 2. Add following block to `.eslintrc`
+```
+"extends": [
+  "teselagen/react" or "teselagen/node" 
+]
+```
+
 
 Then add this to your package.json:
 ```
-"eslintConfig": {
-  "extends": [
-    "teselagen/react" or "teselagen/node" 
-  ]
-},
 "scripts": {
   "precommit": "lint-staged"
 },

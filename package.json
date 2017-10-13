@@ -5,15 +5,9 @@
   "repository": "https://github.com/TeselaGen/eslint-config-teselagen.git",
   "author": "teselagen team@teselagen",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "cd .. && cd .. &&  pwd && install-peerdeps eslint-config-teselagen --dev --only-peers --yarn"
-  },
-  "dependencies": {
-    "install-peerdeps": "^1.2.0"
-  },
   "peerDependencies": {
-    "babel-eslint": "7.2.3",
     "eslint": "^4.8.0",
+    "babel-eslint": "7.2.3",
     "eslint-config-react-app": "^2.0.1",
     "eslint-plugin-flowtype": "2.33.0",
     "eslint-plugin-import": "2.2.0",
