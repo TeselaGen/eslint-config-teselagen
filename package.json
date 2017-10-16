@@ -5,6 +5,9 @@
   "repository": "https://github.com/TeselaGen/eslint-config-teselagen.git",
   "author": "teselagen team@teselagen",
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "./node.js"
+  },
   "peerDependencies": {
     "eslint": "^4.8.0",
     "babel-eslint": "7.2.3",

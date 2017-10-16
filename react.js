@@ -14,8 +14,6 @@ module.exports = {
       1,
       { ignoreRestSiblings: true }
     ],
-    'no-var': 1,
-    'object-shorthand': [1, 'properties'],
     'import/no-unresolved': 2,
     'import/named': 2,
     'import/default': 2,

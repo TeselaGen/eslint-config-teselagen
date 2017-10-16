@@ -17,7 +17,6 @@ module.exports = {
       "quotes": [0, "double"],
       "linebreak-style": [0, "unix"],
       "semi": [0, "always"],
-  
       "no-var": 2,
       "no-debugger": 2,
       "no-empty": [2],
@@ -26,7 +25,6 @@ module.exports = {
       "no-inner-declarations": [2, "functions"],
       "no-unneeded-ternary": 1,
       "no-unsafe-negation": 2,
-      "object-shorthand": [1, "properties"],
       "import/no-unresolved": 2,
       "import/named": 2,
       "import/default": 2,
