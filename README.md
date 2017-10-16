@@ -8,7 +8,11 @@
 2. Add following block to `.eslintrc`
 ```
 "extends": [
-  "teselagen/react" or "teselagen/node" 
+  "teselagen/react"
+]
+or 
+"extends": [
+  "teselagen/node" 
 ]
 ```
 
@@ -20,6 +24,7 @@ Then add this to your package.json:
 },
 "lint-staged": {
   "src/**/*.js": [
+    "eslint --fix --max-warnings=0
     "prettier --write",
     "git add"
   ]
