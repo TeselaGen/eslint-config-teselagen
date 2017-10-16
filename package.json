@@ -9,8 +9,8 @@
     "extends": "./node.js"
   },
   "peerDependencies": {
-    "eslint": "^4.8.0",
     "babel-eslint": "7.2.3",
+    "eslint": "^4.8.0",
     "eslint-config-react-app": "^2.0.1",
     "eslint-plugin-flowtype": "2.33.0",
     "eslint-plugin-import": "2.2.0",
