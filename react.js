@@ -1,7 +1,8 @@
-module.exports = {   
-  "extends": ["react-app"],
+module.exports = {
+  extends: ['react-app'],
   rules: {
     'no-var': 2,
+    'no-console': [1, { allow: ['warn', 'error'] }],
     'no-debugger': 2,
     'no-empty': [2],
     'no-extra-boolean-cast': 2,
@@ -10,17 +11,14 @@ module.exports = {
     'no-undef': 2,
     'no-unneeded-ternary': 1,
     'no-unsafe-negation': 2,
-    'no-unused-vars': [
-      1,
-      { ignoreRestSiblings: true }
-    ],
+    'no-unused-vars': [1, { ignoreRestSiblings: true }],
     'import/no-unresolved': 2,
     'import/named': 2,
     'import/default': 2,
-    "object-shorthand": 0,
-    "no-else-return": 0,
-    "react/jsx-no-bind": 1,
-    "react/jsx-boolean-value": 0,
-    "react/jsx-key": 2,
+    'object-shorthand': 0,
+    'no-else-return': 0,
+    'react/jsx-no-bind': 1,
+    'react/jsx-boolean-value': 0,
+    'react/jsx-key': 2
   }
 }
