@@ -15,9 +15,6 @@ module.exports = {
     'import/no-unresolved': 2,
     'import/named': 2,
     'import/default': 2,
-    'object-shorthand': 0,
-    'no-else-return': 0,
-    'react/jsx-no-bind': 1,
     'react/jsx-boolean-value': 0,
     'react/jsx-key': 2
   }
