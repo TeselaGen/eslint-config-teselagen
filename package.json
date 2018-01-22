@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-teselagen",
-  "version": "4.0.10",
+  "version": "4.0.11",
   "description": "teselagen linter rules",
   "repository": "https://github.com/TeselaGen/eslint-config-teselagen.git",
   "author": "teselagen team@teselagen",
