@@ -2,7 +2,7 @@
 ## Installation
 
 1. `yarn add -D install-peerdeps`
-2. `yarn install-peerdeps eslint-config-teselagen --dev --only-peers`
+2. `yarn install-peerdeps eslint-config-teselagen --dev`
 
 
 2. Add following block to `.eslintrc`
