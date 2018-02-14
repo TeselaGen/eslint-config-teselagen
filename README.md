@@ -1,3 +1,5 @@
+# Teselagen's shared linting config
+
 
 ## Installation
 
