@@ -17,6 +17,8 @@ or
 ```
 
 
+## Adding linting on precommit (recommended!)
+
 Then add this to your package.json:
 ```
 "scripts": {
