@@ -1,8 +1,10 @@
+# Teselagen's shared linting config
+
 
 ## Installation
 
-1. `yarn add -D install-peerdeps eslint-config-teselagen`
-2. `yarn install-peerdeps eslint-config-teselagen --dev --only-peers`
+1. `yarn add -D install-peerdeps`
+2. `yarn install-peerdeps eslint-config-teselagen --dev`
 
 
 2. Add following block to `.eslintrc`
@@ -16,6 +18,8 @@ or
 ]
 ```
 
+
+## Adding linting on precommit (recommended!)
 
 Then add this to your package.json:
 ```
