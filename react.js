@@ -14,6 +14,7 @@ module.exports = {
     'no-unused-vars': [1, { ignoreRestSiblings: true }],
     'import/no-unresolved': 2,
     'import/named': 2,
+    'no-const-assign': 2,
     'import/default': 2,
     'react/jsx-boolean-value': 0,
     'react/jsx-key': 2
