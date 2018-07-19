@@ -28,7 +28,7 @@ Then add this to your package.json:
 },
 "lint-staged": {
   "src/**/*.js": [
-    "eslint --fix --max-warnings=0
+    "eslint --fix --max-warnings=0",
     "prettier --write",
     "git add"
   ]
