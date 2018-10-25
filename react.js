@@ -2,7 +2,7 @@ module.exports = {
   extends: ['react-app'],
   rules: {
     'no-var': 2,
-    'no-console': [1, { allow: ['warn', 'error'] }],
+    'no-console': [1, { allow: ['warn', 'error', "info"] }],
     'no-debugger': 2,
     'no-empty': [2],
     'no-extra-boolean-cast': 2,
