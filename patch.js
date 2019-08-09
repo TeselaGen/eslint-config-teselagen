@@ -3,6 +3,7 @@ const path = require('path');
 let currentModule = module;
 while (!/[\\/]eslint[\\/]lib[\\/]cli-engine[\\/]config-array-factory\.js/i.test(currentModule.filename)) {
   if (!currentModule.parent) {
+    console.log(`currentModule.filename:`,currentModule.filename)
     // This was tested with ESLint 6.1.0; other versions may not work
     throw new Error('Failed to patch ESLint because the calling module was not recognized');
   }
