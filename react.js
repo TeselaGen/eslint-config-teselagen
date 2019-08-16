@@ -1,6 +1,5 @@
-
 module.exports = {
-  extends: ['react-app'],
+  extends: "react-app",
   rules: {
     'no-var': 2,
     'no-console': [1, { allow: ['warn', 'error', "info"] }],

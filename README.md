@@ -3,22 +3,24 @@
 
 ## Installation
 
-1. `yarn add -D install-peerdeps`
-2. `yarn install-peerdeps eslint-config-teselagen --dev`
+1. `yarn add -D eslint eslint-config-teselagen
 
 (select yes to install using yarn when prompted)
 
 
-2. Add following block to `.eslintrc`
+2. Add the following to `.eslintrc.js`
 ```
-"extends": [
-  "teselagen/react"
-]
-or 
-"extends": [
-  "teselagen/node" 
-]
+require("eslint-config-teselagen/patch");
+module.exports = {
+	extends: "teselagen/react" //choose one of these 
+	extends: "teselagen/node" //choose one of these 
+	extends: "teselagen/es5" //choose one of these 
+}
 ```
+
+For React.js projects, extend from `teselagen/react`
+For Node.js projects, extend from `teselagen/node`
+
 
 
 ## Adding linting on precommit (recommended!)
@@ -37,6 +39,3 @@ Then add this to your package.json:
 },
 ```
 
-
-For React.js projects, extend from `teselagen/react`
-For Node.js projects, extend from `teselagen/node`
