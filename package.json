@@ -18,7 +18,6 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "eslint-config-teselagen": "^4.1.0",
     "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-no-only-tests": "^2.1.0",
     "eslint-plugin-react-app": "^6.0.1"
