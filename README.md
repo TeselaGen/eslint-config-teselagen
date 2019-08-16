@@ -39,3 +39,6 @@ Then add this to your package.json:
 },
 ```
 
+## Changelog 
+ ### v5 
+ -We're now using a patch to simplify installation!
