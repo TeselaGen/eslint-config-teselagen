@@ -2,7 +2,7 @@
 
 
 ## Installation
-
+requires v6 of eslint or higher
 1. `yarn add -D eslint eslint-config-teselagen
 
 (select yes to install using yarn when prompted)
