@@ -5,7 +5,6 @@ module.exports = {
     browser: true,
     mocha: true
   },
-  parser: 'babel-eslint',
   rules: {
     'no-undef': 2,
     'no-console': [1, { allow: ['warn', 'error', "info"] }],
