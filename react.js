@@ -18,6 +18,6 @@ module.exports = {
     "import/default": 2,
     "react/jsx-boolean-value": 0,
     "react/jsx-key": 2,
-    "prefer-const": 1,
+    "prefer-const": [1, { destructuring: "all" }],
   },
 };
