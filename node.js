@@ -24,6 +24,6 @@ module.exports = {
     "import/no-unresolved": 2,
     "import/named": 2,
     "import/default": 2,
-    "prefer-const": 1,
+    "prefer-const": [1, { destructuring: "all" }],
   },
 };
