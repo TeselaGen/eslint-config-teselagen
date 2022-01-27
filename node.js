@@ -8,6 +8,7 @@ module.exports = {
     mocha: true,
   },
   rules: {
+    "import/no-anonymous-default-export": 0,
     "no-undef": 2,
     "no-console": [1, { allow: ["warn", "error", "info"] }],
     "no-unused-vars": 1,

@@ -3,6 +3,7 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   extends: "react-app",
   rules: {
+    "import/no-anonymous-default-export": 0,
     "no-var": 2,
     "no-console": [1, { allow: ["warn", "error", "info"] }],
     "no-debugger": 2,
