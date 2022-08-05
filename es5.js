@@ -1,21 +1,22 @@
 module.exports = {
-  env: {
-    node: true,
-    browser: true,
-    mocha: true,
+  "env": {
+    "node": true,
+    "browser": true,
+    "mocha": true
   },
-  parser: "babel-eslint",
-  rules: {
+  "parser": "babel-eslint",
+  "rules": {
     "import/no-anonymous-default-export": 0,
     "no-undef": 2,
-    "no-console": [1, { allow: ["warn", "error", "info"] }],
+    'no-console': [1, { allow: ['warn', 'error', "info"] }],
+    "no-unused-vars": 1,
     "no-redeclare": 2,
     "comma-dangle": 0,
     "no-mixed-spaces-and-tabs": 0,
-    indent: [0, "tab"],
-    quotes: [0, "double"],
+    "indent": [0, "tab"],
+    "quotes": [0, "double"],
     "linebreak-style": [0, "unix"],
-    semi: [0, "always"],
+    "semi": [0, "always"],
     "no-var": 2,
     "no-debugger": 2,
     "no-empty": [2],
@@ -32,8 +33,7 @@ module.exports = {
     "react/jsx-no-bind": 1,
     "react/jsx-boolean-value": 0,
     "react/jsx-key": 2,
-    "jsx-a11y/href-no-hash": 0,
-    "@typescript-eslint/no-unused-vars": 1,
-    "no-unused-vars": 0,
-  },
+    "jsx-a11y/href-no-hash": 0
+  }
+
 };
