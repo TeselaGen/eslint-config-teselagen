@@ -14,7 +14,6 @@ module.exports = {
     "no-undef": 2,
     "no-unneeded-ternary": 1,
     "no-unsafe-negation": 2,
-    "no-unused-vars": [1, { ignoreRestSiblings: true }],
     "import/no-unresolved": 2,
     "import/named": 2,
     "no-const-assign": 2,
@@ -22,5 +21,7 @@ module.exports = {
     "react/jsx-boolean-value": 0,
     "react/jsx-key": 2,
     "prefer-const": [1, { destructuring: "all" }],
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": [1, { ignoreRestSiblings: true }],
   },
 };
