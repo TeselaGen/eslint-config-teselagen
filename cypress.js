@@ -3,7 +3,7 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   plugins: ["cypress", "no-only-tests", "@typescript-eslint"],
   parser: "@typescript-eslint/parser",
-  extends: ["./base-config.js", "plugin:cypress/recommended"],
+  extends: ["plugin:cypress/recommended", "./base-config.js"],
   env: {
     "cypress/globals": true,
   },

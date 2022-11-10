@@ -1,7 +1,7 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  extends: ["./base-config.js", "./node-react-config.js", "react-app"],
+  extends: ["react-app", "./base-config.js", "./node-react-config.js"],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
   rules: {
