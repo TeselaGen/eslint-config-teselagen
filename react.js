@@ -2,6 +2,8 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
   extends: "react-app",
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   rules: {
     "import/no-anonymous-default-export": 0,
     "no-var": 2,

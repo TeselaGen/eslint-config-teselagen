@@ -2,6 +2,8 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
   extends: "react-app",
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   env: {
     node: true,
     browser: true,
@@ -11,7 +13,6 @@ module.exports = {
     "import/no-anonymous-default-export": 0,
     "no-undef": 2,
     "no-console": [1, { allow: ["warn", "error", "info"] }],
-    "no-unused-vars": 1,
     "no-redeclare": 2,
     "comma-dangle": 0,
     "no-mixed-spaces-and-tabs": 0,
@@ -28,5 +29,7 @@ module.exports = {
     "import/named": 2,
     "import/default": 2,
     "prefer-const": [1, { destructuring: "all" }],
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": [1, { ignoreRestSiblings: true }],
   },
 };
