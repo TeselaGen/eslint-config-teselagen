@@ -1,26 +1,12 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  extends: "react-app",
+  extends: ["react-app", "./base-config.js", "./node-react-config.js"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   rules: {
-    "import/no-anonymous-default-export": 0,
-    "no-var": 2,
-    "no-console": [1, { allow: ["warn", "error", "info"] }],
-    "no-debugger": 2,
-    "no-empty": [2],
-    "no-extra-boolean-cast": 2,
-    "no-extra-semi": 1,
-    "no-inner-declarations": [2, "functions"],
-    "no-undef": 2,
-    "no-unneeded-ternary": 1,
-    "no-unsafe-negation": 2,
-    "no-unused-vars": [1, { ignoreRestSiblings: true }],
-    "import/no-unresolved": 2,
-    "import/named": 2,
     "no-const-assign": 2,
-    "import/default": 2,
     "react/jsx-boolean-value": 0,
     "react/jsx-key": 2,
-    "prefer-const": [1, { destructuring: "all" }],
   },
 };
