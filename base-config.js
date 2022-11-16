@@ -4,12 +4,11 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": [1, { ignoreRestSiblings: true }],
     "no-use-before-define": 0,
     "@typescript-eslint/no-use-before-define": [
-      1,
+      "error",
       {
         functions: false,
         classes: false,
         variables: false,
-        allowNamedExports: true,
       },
     ],
   },
