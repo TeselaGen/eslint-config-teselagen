@@ -5,7 +5,12 @@ module.exports = {
     "no-use-before-define": 0,
     "@typescript-eslint/no-use-before-define": [
       1,
-      { functions: false, classes: false },
+      {
+        functions: false,
+        classes: false,
+        variables: false,
+        allowNamedExports: true,
+      },
     ],
   },
 };
