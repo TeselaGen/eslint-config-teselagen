@@ -8,7 +8,6 @@ requires v6 of eslint or higher
 2. Add the following to `.eslintrc.js`
 
 ```
-require("eslint-config-teselagen/patch");
 module.exports = {
   //choose one of the following:
 	extends: "teselagen/react"
