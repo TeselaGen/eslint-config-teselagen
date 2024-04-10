@@ -8,5 +8,9 @@ module.exports = {
     "no-const-assign": 2,
     "react/jsx-boolean-value": 0,
     "react/jsx-key": 2,
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/no-this-in-sfc": "warn",
+    "react-hooks/rules-of-hooks": "error"
   },
+  
 };

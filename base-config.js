@@ -11,5 +11,18 @@ module.exports = {
         variables: false,
       },
     ],
+    "prefer-const": [
+      "warn",
+      {
+        destructuring: "all",
+      },
+    ],
+  },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".ts", ".tsx", ".js", ".jsx"],
+      },
+    },
   },
 };
