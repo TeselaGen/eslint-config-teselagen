@@ -1245,7 +1245,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rushstack/eslint-patch@^1.1.0", "@rushstack/eslint-patch@^1.2.0":
+"@rushstack/eslint-patch@^1.1.0", "@rushstack/eslint-patch@^1.10.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.1.tgz#7ca168b6937818e9a74b47ac4e2112b2e1a024cf"
   integrity sha512-S3Kq8e7LqxkA9s7HKLqXGTGck1uwis5vAXan3FnU5yw1Ec5hsSGnq4s/UCaSqABPOnOTg7zASLyst7+ohgWexg==
@@ -2162,18 +2162,18 @@ eslint-config-react-app@^7.0.1:
     eslint-plugin-react-hooks "^4.3.0"
     eslint-plugin-testing-library "^5.0.1"
 
-eslint-config-teselagen@6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-teselagen/-/eslint-config-teselagen-6.1.2.tgz#e4f97cd26888c65bbcbfd3dd4184c83a6ec80c09"
-  integrity sha512-4po2CF65IreYUTK4834bFQt5fxMRzpa7pfARggsutb8ictATeEngVMBCmqFcP/w71JxiNYACNFFtmlSF48vrKw==
+eslint-config-teselagen@6.1.3:
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-teselagen/-/eslint-config-teselagen-6.1.3.tgz#e4c8c0446b17b4cad7a523a301caafe64ad4ad56"
+  integrity sha512-+DEkzAb9jmFGt+QK/utXi1j4cF/qld3cgZmZ8YVjAJ8EN3X47OzGhnPDT4DmwuzKi9YEnZ3h1QB603s9X/HKKw==
   dependencies:
-    "@rushstack/eslint-patch" "^1.2.0"
+    "@rushstack/eslint-patch" "^1.10.1"
     "@typescript-eslint/eslint-plugin" "^7.6.0"
     "@typescript-eslint/parser" "^7.6.0"
     babel-eslint "^10.0.0"
     eslint "8.36.0"
     eslint-config-react-app "^7.0.1"
-    eslint-plugin-cypress "^2.12.1"
+    eslint-plugin-cypress "^2.15.1"
     eslint-plugin-flowtype "^8.0.3"
     eslint-plugin-import "^2.29.1"
     eslint-plugin-jsx-a11y "^6.8.0"
@@ -2199,7 +2199,7 @@ eslint-module-utils@^2.8.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@^2.12.1:
+eslint-plugin-cypress@^2.15.1:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.15.1.tgz#336afa7e8e27451afaf65aa359c9509e0a4f3a7b"
   integrity sha512-eLHLWP5Q+I4j2AWepYq0PgFEei9/s5LvjuSqWrxurkg1YZ8ltxdvMNmdSf0drnsNo57CTgYY/NIHHLRSWejR7w==
