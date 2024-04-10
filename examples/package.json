@@ -2,6 +2,7 @@
   "name": "example",
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-teselagen": "6.1.1"
-  }
+    "eslint-config-teselagen": "6.1.2"
+  },
+  "version": "0.0.1"
 }
