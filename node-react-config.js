@@ -10,10 +10,6 @@ module.exports = {
     "no-undef": 2,
     "no-unneeded-ternary": 1,
     "no-unsafe-negation": 2,
-    "import/no-unresolved": 2,
-    "import/no-anonymous-default-export": 0,
-    "import/named": 2,
-    "import/default": 2,
     "prefer-const": [1, { destructuring: "all" }],
   },
 };
