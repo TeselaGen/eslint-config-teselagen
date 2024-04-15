@@ -4,5 +4,9 @@
     "eslint": "^8.57.0",
     "eslint-config-teselagen": "link:.."
   },
+  "volta": {
+    "node": "16.20.2",
+    "yarn": "1.22.21"
+  },
   "version": "0.0.2"
 }
